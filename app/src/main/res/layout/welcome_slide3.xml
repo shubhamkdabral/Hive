@@ -11,6 +11,14 @@
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/slide_desc"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/slide_desc"
+            android:textStyle="bold" />
+
         <ImageView
             android:layout_width="@dimen/img_width"
             android:layout_height="@dimen/img_height"
